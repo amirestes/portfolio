@@ -87,6 +87,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+    background-color: #CAC691;
+    color: #152A3E;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, {
+    font-family: 'Lexend Tera', san-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Lekton' sans-serif;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 1em;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
