@@ -86,42 +86,168 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-   body {
-    background-color: #CAC691;
-    color: #152A3E;
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1em;
+  background-color: white;
+  color: #152A3E;
+  font-family: 'Lekton', sans-serif;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 h1, {
-    font-family: 'Lexend Tera', san-serif;
+  font-family: 'Lexend Tera', san-serif;
 }
 
 h2,
 h3 {
-    font-family: 'Lekton' sans-serif;
-    font-weight: bold;
+  font-family: 'Lekton', sans-serif;
+  font-weight: bold;
 }
-
+/* HEADER */
 header nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1.2em;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 95%;
 }
 
 header nav ul {
-    display: flex;
+  display:flex;
 }
 
 header nav ul li {
-    padding: 1em;
+  display:flex;
+  justify-content: flex-start;
+  padding: 1em;
 }
 
+header {
+  background-color: #CAC691;
+  margin: 0;
+}
 
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding-bottom: 30px;
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.projects h2{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+}
+
+.projects article{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 20px;
+}
+/* Skills */
+.skills{
+  background-color: #EEEFDA;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 80px;
+}
+.skills h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  padding-bottom: 40px;
+}
+
+.skills h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.25em;
+}
+
+.skills li {
+  font-size: 1.25em;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  border: 4px solid #B4C7D9;
+  margin: 20px;
+  border-radius: 15px;
+  background: #B4C7D9;
+}
+/* About */
+.about {
+  background-color: #F7E8E8;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 80px 30px;
+  font-size: 1.25em;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+}
+/* Contact-Footer */
+footer {
+  background-color: #152A3E;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-size: 1.25em;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 80px 30px;
+}
+
+.contact h2 {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-size: 2.5em;
+  padding: 60px 0 60px 0;
+}
+
+.contact div {
+  padding: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.contact h3 {
+  font-size: 2em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -18,7 +18,9 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Tera&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
 
   <title>Alice Mirestes</title>
@@ -40,7 +42,7 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="hero">
             <h1>Hi, I am Alice Mirestes!</h1>
             <p>
                 I am a Front End Web Developer.
@@ -50,14 +52,21 @@
 </header>
 <main>
     <!--Projects-->
-    <div>
-        <article></article>
-        <article></article>
+    <div class="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam id fuga qui, doloremque possimus inventore rerum! Magni doloribus mollitia praesentium, maxime eaque unde, ut dicta totam aut, nulla molestias quidem.</p>
+        </article>
+        <article>
+            <h3>Project 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam id fuga qui, doloremque possimus inventore rerum! Magni doloribus mollitia praesentium, maxime eaque unde, ut dicta totam aut, nulla molestias quidem.</p></article>
     </div>
     <!--Skills/Tech Stack-->
     <div>
-        <section>
+        <section class="skills">
             <h2>Skills</h2>
+            <h3>Developer Skills</h3>
             <ul>
                 <li>html/CSS</li>
                 <li>JavaScript</li>
@@ -65,11 +74,19 @@
                 <li>Wordpress</li>
                 <li>Git</li>
             </ul>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
         </section>
     </div>
     <!--About Me-->
     <div>
-        <section>
+        <section class="about">
             <h2>Hi, I am Alice Mirestes!</h2>
             <h3>
                 I am a Front End Web Developer.
@@ -77,41 +94,46 @@
             <p>
                 I love creating/building things from knitting, cooking, legos, or coding. Following a plan to create something is one of my favorite things to do. When I was a teen I first taught myself html so I could build a basic website showing off my dogs! I've worked in Veterinary Medicine for the last 15 years and I am ready to build a career on the elements I loved in my career- technology. A big part of my career has included using/troubleshooting computers, managing the clinic website/social media, and interacting with clients. Now my focus is on building websites.
             </p>
-            <p>
+            <p class="bold">
                 Let's get to work!
             </p>
         </section>
     </div>
 </main>
 <footer>
-<!--Contact-->
-    <h2>Let's Connect</h2>
-        <div>
-            <h3>Hire me</h3>
-            <p>email:</p>
-        </div>
-        <div>
-            <h3>Follow me</h3>
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/alice-mirestes-7367671a5/">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="https://github.com/amirestes">GitHub</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Meet me</h3>
-            <p>
-                Northwest Arkansas <br>
-                Let's go to meetups together!
-            </p>
-        </div>
-        <div>
-            <p>Copyright 2021 | Alice Mirestes</p>
-        </div>
-    </footer>
+    <div class="contact">
+    <!--Contact-->
+        <h2>Let's Connect</h2>
+            <div>
+                <h3>Hire me</h3>
+                <p>555-555-5555</p>
+                <p>email:</p>
+            </div>
+            <div>
+                <h3>Follow me</h3>
+                <ul>    
+                    <li>
+                        <a href="https://www.linkedin.com/in/alice-mirestes-7367671a5/">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/amirestes">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Meet me</h3>
+                <p>
+                    Northwest Arkansas <br>
+                    Let's get coffee!
+                </p>
+            </div>
+            <div>
+                <p>
+                    Copyright 2021 | Alice Mirestes
+                </p>
+            </div>
+    </div>
+</footer>
     
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
