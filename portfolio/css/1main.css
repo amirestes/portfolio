@@ -103,11 +103,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}*/
-
 a {
   text-decoration: none;
   color: #453E4F;
@@ -133,15 +128,6 @@ h3 {
   font-family: 'Alike', serif;
   font-weight: bold;
 }
-
-/*main .content-wrapper {
-  margin: 50px 0 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}*/
-
 /* HEADER */
 header nav {
   display: flex;
@@ -176,13 +162,6 @@ header {
   padding-bottom: 30px;
 }
 
-/*header .content-wrapper {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}*/
 /* Projects */
 
 .projects {
@@ -205,8 +184,6 @@ header {
   flex-flow: column wrap;
   padding: 20px;
 }
-
-
 /* Skills */
 .skills{
   background-color: #F8C6C6;
@@ -233,10 +210,10 @@ header {
   font-weight: 550;
   display: flex;
   justify-content: center;
-  border: 2px solid #CAC691
+  border: 4px solid #CAC691
   ;
   margin: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: #CAC691
   ;
 }
@@ -256,28 +233,15 @@ header {
   font-style: italic;
 }
 /* Contact-Footer */
-
 footer {
-  text-align: center;
   background-color: #453E4F;
   color: #ffe8d6;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
   font-size: 1.25em;
-  margin: auto;
 }
-/*
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
-*/
-footer .content {
-  display: flex;
-  justify-content: center;
 
-}
 .contact {
   display: flex;
   align-items: center;
@@ -306,31 +270,8 @@ footer .content {
   font-size: 2em;
 }
 
-footer .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-footer .social-icons p {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social icons p i {
-  font-size: 1.3125em;
-}
-
 footer i {
   color: #ffe8d6;
-}
-
-.fab {
-  font-size: 3em;
-  padding: 0;
 }
 
 #follow ul li{
@@ -438,21 +379,6 @@ footer i {
 
 @media (min-width: 768px) {
   /* Tablet Styles */
-
-  /*.content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-  }*/
-
-  /*header .content-wrapper {
-    width: 100%;
-    justify-content: space-between;
-  }*/
-
-  header nav ul {
-    justify-content: space-between;
-  }
-
   .hero {
     display: flex;
     flex-direction: column;
@@ -460,14 +386,6 @@ footer i {
     align-content: center;
   }
 
-  /*main .content-wrapper {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    width: 40%;
-  }
-*/
   .projects {
     display: flex;
     flex-flow: column wrap;
@@ -476,10 +394,10 @@ footer i {
   .article {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    width: 90%;
     padding-left: 25px;
   }
-  
+
   .dev,
   .tech {
     display: flex;
@@ -490,10 +408,10 @@ footer i {
   .skills li {
     display: flex;
     justify-content: center;
-    border: 2px solid #CAC691
+    border: 10px solid #CAC691
     ;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     background: #CAC691
     ;
     padding: 10px;
@@ -533,8 +451,8 @@ footer i {
     font-size: 1.5em;
   }
 
-  .fab {
-    font-size: 2em;
+  .fa-3x {
+    font-size: 1em;
     padding: 0;
   }
 
@@ -549,21 +467,6 @@ footer i {
 
 @media (min-width: 1200px) {
   /* Desktop Styles */
-  .content-wrapper {
-    max-width: 1000px;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  #connect {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 40px;
-    padding: 25px;
-  }
 
 }
 
