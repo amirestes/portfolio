@@ -449,8 +449,15 @@ footer i {
     justify-content: space-between;
   }*/
 
+  /*--Header--*/
+  header nav{
+    display: flex;
+    justify-content: flex-end;
+  }
+
   header nav ul {
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .hero {
@@ -468,6 +475,7 @@ footer i {
     width: 40%;
   }
 */
+/*--Projects--*/
   .projects {
     display: flex;
     flex-flow: column wrap;
@@ -487,27 +495,60 @@ footer i {
     justify-content: center;
   }
 
+  /*--Skills--*/
+
   .skills li {
     display: flex;
     justify-content: center;
     border: 2px solid #CAC691
     ;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: #CAC691
     ;
     padding: 10px;
   }
 
-  .contact {
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    flex-flow: row wrap;
-    padding: ;
+  /*--About--*/
+  .about {
+    margin: auto;
+    padding: 75px;
   }
 
-  #connect {
+  /*--Footer/Contact--*/
+  footer {
+    text-align: center;
+    background-color: #453E4F;
+    color: #ffe8d6;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-size: 1.25em;
+    margin: auto;
+}
+
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  footer .footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .contact {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+
+  }
+
+  /* removed this id
+    #connect {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -515,12 +556,12 @@ footer i {
     flex-flow: row wrap;
     margin: 0;
     width: 100%;
-  }
+  } */
 
   .howto {
     display: flex;
     justify-content: center;
-    align-contents: center;
+    align-content: center;
     width: 30%;
     margin: 0;
   }
