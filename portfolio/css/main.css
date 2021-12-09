@@ -588,7 +588,7 @@ footer i {
 @media (min-width: 1200px) {
   /* Desktop Styles */
   .content-wrapper {
-    max-width: 1000px;
+    min-width: 1200px;
   }
   
   header nav {
