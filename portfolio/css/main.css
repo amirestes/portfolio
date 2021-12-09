@@ -302,9 +302,7 @@ footer .content {
   flex-flow: column wrap;
 }
 
-.contact h3 {
-  font-size: 2em;
-}
+
 
 footer .social-icons {
   display: flex;
@@ -539,13 +537,20 @@ footer i {
     flex-direction: row;
   }
 
+  .footer-content h3 {
+    margin: 0;
+  }
+
   .contact {
     display: flex;
     align-content: flex-start;
     justify-content: center;
     flex-flow: column wrap;
+    padding: 0;
+    align-items: flex-start;
 
   }
+
 
   /* removed this id
     #connect {
@@ -570,9 +575,7 @@ footer i {
     margin: 0;
   }
 
-  .contact h3 {
-    font-size: 1.5em;
-  }
+  
 
   .fab {
     font-size: 2em;
