@@ -134,6 +134,9 @@ h3 {
   font-weight: bold;
 }
 
+span {
+  font-weight: bold;
+}
 /*main .content-wrapper {
   margin: 50px 0 0 0;
   display: flex;
@@ -488,19 +491,23 @@ footer i {
 
   .article {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    padding-left: 25px;
+   
   }
   
+  article {
+    width: 25%;
+  }
+
+  /*--Skills--*/
+
   .dev,
   .tech {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
-
-  /*--Skills--*/
 
   .skills li {
     display: flex;
@@ -610,6 +617,9 @@ footer i {
     padding: 25px;
   }
 
+  article {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 35em) {
