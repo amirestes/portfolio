@@ -137,13 +137,6 @@ h3 {
 span {
   font-weight: bold;
 }
-/*main .content-wrapper {
-  margin: 50px 0 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}*/
 
 /* HEADER */
 header nav {
@@ -493,7 +486,8 @@ footer i {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-   
+    align-content: flex-start;
+    align-items: flex-start;
   }
   
   article {
