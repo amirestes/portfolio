@@ -206,6 +206,13 @@ header {
   padding: 20px;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
 
 /* Skills */
 .skills{
