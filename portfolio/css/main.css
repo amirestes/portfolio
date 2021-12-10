@@ -113,6 +113,9 @@ a {
   color: #453E4F;
 }
 
+.contact a{
+  color:#ffe8d6;
+}
 nav a:hover {
   border: 1.4px solid #453E4F;
   border-radius: 10px;
