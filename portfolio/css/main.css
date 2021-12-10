@@ -127,7 +127,7 @@ li {
   list-style-type: none;
 }
 
-h1, {
+h1 {
   font-family: 'Alike', serif;
 }
 
@@ -203,7 +203,9 @@ header {
   justify-content: center;
   flex-flow: column wrap;
   padding: 20px;
+  align-items: center;
 }
+
 
 img {
   width: 100%;
@@ -211,6 +213,13 @@ img {
 
 figure {
   margin: 0;
+}
+button {
+  background-color: #453e4f;
+  color: #ffe8d6;
+  padding: auto;
+  border-radius: 5px;
+  border-color: #453E4F;
 }
 
 /* Skills */
