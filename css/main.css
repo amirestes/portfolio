@@ -214,6 +214,7 @@ img {
 figure {
   margin: 0;
 }
+
 button {
   background-color: #453e4f;
   color: #ffe8d6;
@@ -270,6 +271,16 @@ button {
   font-size: 1.5em;
   font-style: italic;
 }
+
+.about img {
+  width: 80%;
+  border: 20px solid white;
+}
+
+.about figure {
+  margin: 0; 
+}
+
 /* Contact-Footer */
 
 footer {
@@ -531,8 +542,24 @@ footer i {
   .about {
     margin: auto;
     padding: 75px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
   }
 
+  .about img {
+    width: 75%;
+    border: 10px solid white;
+  }
+  
+  .about figure {
+    margin: 0; 
+    width: 30%;
+  }
+
+  .about h2 {
+    font-size: 1.5em;
+  }
   /*--Footer/Contact--*/
   footer {
     text-align: center;
