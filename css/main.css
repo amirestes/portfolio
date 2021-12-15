@@ -556,6 +556,13 @@ footer i {
     flex-flow: row wrap;
     align-content: flex-start;
   }
+  .about p {
+    width: 500px;
+  }
+
+  .about h2 {
+    margin: 0;
+  }
 
   .about img {
     width: 75%;
@@ -564,7 +571,7 @@ footer i {
   
   .about figure {
     margin: 0; 
-    width: 30%;
+    width: 33%;
   }
 
   .about h2 {
@@ -652,7 +659,17 @@ footer i {
     display: flex;
     justify-content: flex-end;
   }
+  .about p {
+    width: 750px;
+  }
+  .about img {
+    width: 75%;
+    border: 10px solid white;
+  }
 
+  .about h2 {
+    margin: 0;
+  }
   #connect {
     display: flex;
     justify-content: space-evenly;
