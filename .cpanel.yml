@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aliki1/public_html/
+    - /amirestes.com index.html $DEPLOYPATH
+    - /bin/cp css/main.css $DEPLOYPATH
