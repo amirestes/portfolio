@@ -240,7 +240,8 @@ button {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .skills h2 {
   display: flex;
@@ -266,7 +267,13 @@ button {
   border-radius: 10px;
   background: #CAC691
   ;
+  text-align: center;
 }
+
+ul.dev {
+  padding: 0;
+}
+
 /* About */
 .about {
   background-color: #F19494;
