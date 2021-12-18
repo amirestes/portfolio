@@ -395,7 +395,7 @@ footer i {
 
 .meet {
   padding-bottom: 25px;
-}\
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -564,6 +564,13 @@ footer i {
     padding: 10px;
   }
 
+  .skills h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    padding-bottom: 0px;
+  }
+
   /*--About--*/
   .about {
     margin: auto;
@@ -588,6 +595,7 @@ footer i {
   .about figure {
     margin: 0; 
     width: 33%;
+    padding: 2em;
   }
 
   .about h2 {
@@ -627,36 +635,12 @@ footer i {
     justify-content: center;
     flex-flow: column wrap;
     padding: 0;
-    align-items: flex-start;
-
+    
+    width: 25%;
   }
-
-
-  /* removed this id
-    #connect {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-    flex-flow: row wrap;
-    margin: 0;
-    width: 100%;
-  } 
-
-  .howto {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 30%;
-    margin: 0;
-  } 
-
-  .howto h3 {
-    margin: 0;
-  } */
-
-  
-
+  .social {
+    width: 35%;
+  }
   .fab {
     font-size: 2em;
     padding: 0;
