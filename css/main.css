@@ -517,14 +517,7 @@ footer i {
     align-content: center;
   }
 
-  /*main .content-wrapper {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    width: 40%;
-  }
-*/
+  
 /*--Projects--*/
   .projects {
     display: flex;
@@ -635,12 +628,12 @@ footer i {
     justify-content: center;
     flex-flow: column wrap;
     padding: 0;
-    
     width: 25%;
   }
   .social {
     width: 35%;
   }
+
   .fab {
     font-size: 2em;
     padding: 0;
@@ -658,6 +651,10 @@ footer i {
   header nav {
     display: flex;
     justify-content: flex-end;
+  }
+  .dev {
+    width: 90%;
+    margin: 40px;
   }
   .about p {
     width: 750px;
@@ -681,7 +678,16 @@ footer i {
     width: 40%;
   }
 }
+.contact {
+  width: 20%;
+}
+.social {
+  width: 40%;
+}
 
+.meet {
+  width: 20%;
+}
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
