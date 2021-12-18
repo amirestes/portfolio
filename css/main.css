@@ -155,7 +155,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  font-size: 0.86em;
+  font-size: 0.75em;
   padding-top: 30px;
   padding-bottom: 60px;
   width: 95%;
@@ -304,17 +304,12 @@ footer {
   flex-flow: column wrap;
   font-size: 1.25em;
   margin: auto;
+  align-content: center;
 }
-/*
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
-*/
+
 footer .content {
   display: flex;
   justify-content: center;
-
 }
 .contact {
   display: flex;
@@ -322,6 +317,7 @@ footer .content {
   justify-content: center;
   flex-flow: column wrap;
   padding-bottom: 30px;
+
 }
 
 .contact h2 {
@@ -670,7 +666,7 @@ footer i {
   article {
     width: 40%;
   }
-}
+
 .contact {
   width: 20%;
 }
@@ -680,6 +676,7 @@ footer i {
 
 .meet {
   width: 20%;
+}
 }
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
