@@ -103,11 +103,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}*/
-
 a {
   text-decoration: none;
   color: #453E4F;
@@ -116,6 +111,7 @@ a {
 .contact a{
   color:#ffe8d6;
 }
+
 nav a:hover {
   border: 1.4px solid #453E4F;
   border-radius: 10px;
@@ -127,6 +123,7 @@ nav a {
   border: 1.4px solid #F19494;
   border-radius: 10px;
 }
+
 li {
   list-style-type: none;
 }
@@ -212,7 +209,6 @@ header p {
   align-items: center;
 }
 
-
 img {
   width: 100%;
 }
@@ -237,6 +233,7 @@ figure {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .skills h2 {
   display: flex;
   justify-content: center;
@@ -311,6 +308,7 @@ footer .content {
   display: flex;
   justify-content: center;
 }
+
 .contact {
   display: flex;
   align-items: center;
@@ -335,6 +333,7 @@ footer .content {
   justify-content: center;
   flex-flow: column wrap;
 }
+
 .social {
   padding-bottom: 30px;
 }
@@ -385,6 +384,7 @@ footer i {
 .meet {
   padding-bottom: 25px;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -476,15 +476,6 @@ footer i {
 @media (min-width: 768px) {
   /* Tablet Styles */
 
-  /*.content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
-  }*/
-
-  /*header .content-wrapper {
-    width: 100%;
-    justify-content: space-between;
-  }*/
   html {
     font-size: 18px;
   }
@@ -492,6 +483,7 @@ footer i {
   header nav{
     display: flex;
     justify-content: flex-end;
+    font-size: 1em;
   }
 
   header nav ul {
@@ -561,6 +553,7 @@ footer i {
     flex-flow: row wrap;
     align-content: flex-start;
   }
+  
   .about p {
     width: 500px;
   }
@@ -583,6 +576,7 @@ footer i {
   .about h2 {
     font-size: 1.5em;
   }
+
   /*--Footer/Contact--*/
   footer {
     text-align: center;
@@ -593,7 +587,7 @@ footer i {
     flex-flow: row wrap;
     font-size: 1em;
     margin: auto;
-}
+  }
 
   footer .content-wrapper {
     width: 95%;
@@ -619,6 +613,7 @@ footer i {
     padding: 0;
     width: 25%;
   }
+  
   .social {
     width: 35%;
   }
@@ -627,12 +622,11 @@ footer i {
     font-size: 2em;
     padding: 0;
   }
-
 }
-
 
 @media (min-width: 1200px) {
   /* Desktop Styles */
+
   .content-wrapper {
     min-width: 1200px;
   }
@@ -641,13 +635,16 @@ footer i {
     display: flex;
     justify-content: flex-end;
   }
+  
   .dev {
     width: 90%;
     margin: 40px;
   }
+  
   .about p {
     width: 750px;
   }
+  
   .about img {
     width: 75%;
     border: 10px solid white;
@@ -656,6 +653,7 @@ footer i {
   .about h2 {
     margin: 0;
   }
+  
   #connect {
     display: flex;
     justify-content: space-evenly;
@@ -667,17 +665,18 @@ footer i {
     width: 40%;
   }
 
-.contact {
-  width: 20%;
-}
-.social {
-  width: 40%;
+  .contact {
+    width: 20%;
+  }
+  .social {
+    width: 40%;
+  }
+
+  .meet {
+    width: 20%;
+  }
 }
 
-.meet {
-  width: 20%;
-}
-}
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
