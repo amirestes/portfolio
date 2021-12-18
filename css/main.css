@@ -187,13 +187,7 @@ header p {
   font-size: 1.25em;
   text-align: center;
 }
-/*header .content-wrapper {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}*/
+
 /* Projects */
 
 .projects {
@@ -227,12 +221,12 @@ figure {
   margin: 0;
 }
 
-button {
+.projects a {
   background-color: #453e4f;
   color: #ffe8d6;
   padding: auto;
   border-radius: 5px;
-  border-color: #453E4F;
+  border: 10px solid #453E4F;
 }
 
 /* Skills */
