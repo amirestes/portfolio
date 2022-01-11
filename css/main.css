@@ -183,6 +183,7 @@ header {
 header p {
   font-size: 1.25em;
   text-align: center;
+  margin: 0 25px;
 }
 
 /* Projects */
