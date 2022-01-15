@@ -186,6 +186,12 @@ header p {
   margin: 0 25px;
 }
 
+header .social-icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
 /* Projects */
 
 .projects {
@@ -500,6 +506,11 @@ footer i {
     align-content: center;
   }
 
+  header .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+  }
   
 /*--Projects--*/
   .projects {
@@ -638,6 +649,20 @@ footer i {
     justify-content: flex-end;
   }
   
+  header .social-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  header .social-icons p {
+    margin: 0 65px;
+  }
+
+  .hero p {
+    margin: 0 150px;
+  }
+
   .dev {
     width: 90%;
     margin: 40px;
