@@ -260,11 +260,11 @@ figure {
   font-weight: 550;
   display: flex;
   justify-content: center;
-  border: 2px solid #CAC691
+  border: 2px solid green
   ;
   margin: 20px;
   border-radius: 10px;
-  background: #CAC691
+  background: green
   ;
   text-align: center;
 }
