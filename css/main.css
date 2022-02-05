@@ -480,7 +480,14 @@ footer i {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
+@media (max-width: 768px) {
+  .skill--icons {
+    display: none;
+  }
+  .skill--mobile {
+    display: contents;
+  }
+}
 @media (min-width: 768px) {
   /* Tablet Styles */
 
@@ -512,6 +519,7 @@ footer i {
     padding-bottom: 30px;
   }
   
+  
 /*--Projects--*/
   .projects {
     display: flex;
@@ -542,11 +550,11 @@ footer i {
   .skills li {
     display: flex;
     justify-content: center;
-    border: 2px solid #CAC691
-    ;
     margin: 20px;
     border-radius: 5px;
     background: #CAC691
+    ;
+    border: 2px solid #CAC691
     ;
     padding: 10px;
   }
@@ -556,6 +564,10 @@ footer i {
     justify-content: center;
     font-size: 2.5em;
     padding-bottom: 0px;
+  }
+
+  .skill--mobile {
+    display: none;
   }
 
   /*--About--*/
@@ -668,6 +680,10 @@ footer i {
     margin: 40px;
   }
   
+  .skill--mobile{
+    display: none;
+  }
+
   .about p {
     width: 750px;
   }
