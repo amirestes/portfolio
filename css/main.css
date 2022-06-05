@@ -119,6 +119,10 @@ nav a:hover {
   color: #ffe8d6;
 }
 
+a:visited {
+  color:#453E4F
+}
+
 nav a {
   border: 1.4px solid #F19494;
   border-radius: 10px;
@@ -216,6 +220,12 @@ header .social-icons {
   align-items: center;
 }
 
+article {
+  display: flex;
+  margin: 25px auto;
+  align-content: flex-end;
+}
+
 img {
   width: 100%;
   border: 1px solid black;
@@ -310,6 +320,7 @@ footer {
   font-size: 1.25em;
   margin: auto;
   align-content: center;
+  padding: 15px 0;
 }
 
 footer .content {
@@ -368,6 +379,9 @@ footer i {
   color: #ffe8d6;
 }
 
+footer p {
+  margin: 0;
+}
 .fab {
   font-size: 3em;
   padding: 0;
