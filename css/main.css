@@ -117,16 +117,18 @@ nav a:hover {
   border-radius: 10px;
   background: #453e4f;
   color: #ffe8d6;
+  text-decoration: none;
 }
 
 a:visited {
   color:#453E4F
+ 
 }
 
-nav a {
-  border: 1.4px solid #F19494;
-  border-radius: 10px;
-}
+/* nav a {
+   border: 1.4px solid #F19494;
+  border-radius: 10px; 
+} */
 
 li {
   list-style-type: none;
@@ -170,11 +172,14 @@ header nav ul li {
   display:flex;
   justify-content: flex-start;
   padding: 0.6em;
+  border: 0px solid;
 }
 
 header {
-  background-color: #F19494;
+  /* background-color: #F19494; */
   margin: 0;
+  background-image: radial-gradient(circle, #fad5d5 0%, #f19494 100%);
+  padding: 0 0 70px 0;
 }
 
 .hero {
@@ -283,6 +288,7 @@ ul.dev {
   padding: 0;
 }
 
+
 /* About */
 .about {
   background-color: #F19494;
@@ -308,6 +314,13 @@ ul.dev {
   margin: 0; 
 }
 
+.top a {
+  text-decoration: none;
+}
+
+.top a:hover {
+  text-decoration: none;
+}
 /* Contact-Footer */
 
 footer {
