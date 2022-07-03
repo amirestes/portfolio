@@ -275,12 +275,12 @@ figure {
   font-weight: 550;
   display: flex;
   justify-content: center;
-  border: 2px solid #CAC691
-  ;
+  /* border: 2px solid #CAC691
+  ; */
   margin: 20px;
   border-radius: 10px;
-  background: #CAC691
-  ;
+  /* background: #CAC691
+  ; */
   text-align: center;
 }
 
@@ -579,10 +579,10 @@ footer p {
     justify-content: center;
     margin: 20px;
     border-radius: 5px;
-    background: #CAC691
+    /* background: #CAC691
     ;
     border: 2px solid #CAC691
-    ;
+    ; */
     padding: 10px;
   }
 
