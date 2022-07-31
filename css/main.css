@@ -297,6 +297,11 @@ ul.dev {
   flex-flow: column wrap;
   padding: 80px 30px;
   font-size: 1.25em;
+  align-items: center;
+}
+
+#aboutText{
+  padding: 25px;
 }
 
 .bold {
@@ -311,7 +316,11 @@ ul.dev {
 }
 
 .about figure {
-  margin: 0; 
+  margin: 0;
+  align-content: center; 
+  width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 .top a {
@@ -615,8 +624,8 @@ footer p {
   }
 
   .about img {
-    width: 75%;
-    border: 10px solid white;
+    width: 300px;
+    border: 5px solid white;
   }
   
   .about figure {
@@ -711,15 +720,23 @@ footer p {
     display: none;
   }
 
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
   .about p {
     width: 750px;
   }
   
   .about img {
-    width: 75%;
-    border: 10px solid white;
+    width: 90%;
+    border: 8px solid white;
   }
-
+  .about figure {
+    display: flex;
+    justify-content: flex-start;
+  }
   .about h2 {
     margin: 0;
   }
