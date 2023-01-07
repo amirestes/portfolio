@@ -1,0 +1,854 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* font-family: 'Lekton', sans-serif;
+font-family: 'Lexend Tera', sans-serif; 
+font-family: 'Alike', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1em;
+  background-color: white;
+  color: #453E4F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #453E4F;
+}
+
+.contact a{
+  color:#ffe8d6;
+}
+
+nav a:hover {
+  border: 1.4px solid #453E4F;
+  border-radius: 10px;
+  background: #453e4f;
+  color: #ffe8d6;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#453E4F
+ 
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'Alike', serif;
+  font-size: 2.5em;
+  margin: 0.75em;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: 'Alike', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* HEADER */
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column;
+  font-size: 1em;
+  width: 95%;
+}
+
+header nav ul {
+  display:flex;
+  flex-direction: column;
+}
+
+header nav ul li {
+  display:flex;
+  justify-content: flex-start;
+  padding: 0.6em;
+  border: 0px solid;
+}
+
+header {
+  /* background-color: #F19494; */
+  margin: 0;
+  background-image: radial-gradient(circle, #fad5d5 0%, #f19494 100%);
+  padding: 0 0 70px 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding-bottom: 30px;
+}
+
+header p {
+  font-size: 1.25em;
+  text-align: center;
+  margin: 0 25px;
+}
+
+header .social-icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  
+}
+
+.projects h2{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+}
+
+.projects article{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 20px;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  margin: 25px auto;
+  align-content: flex-end;
+}
+
+img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+figure {
+  margin: 0;
+}
+
+.projects a {
+  background-color: #453e4f;
+  color: #ffe8d6;
+  border-radius: 5px;
+  border: 10px solid #453E4F;
+}
+
+/* Skills */
+.skills{
+  background-color: #F8C6C6;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.skills h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  padding-bottom: 40px;
+}
+
+.skills h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.25em;
+}
+
+.skills li {
+  font-size: 1.25em;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid #CAC691
+  ; */
+  margin: 20px;
+  border-radius: 10px;
+  /* background: #CAC691
+  ; */
+  text-align: center;
+}
+
+ul.dev {
+  padding: 0;
+}
+
+
+/* About */
+.about {
+  background-color: #F19494;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 80px 30px;
+  font-size: 1.25em;
+  align-items: center;
+}
+
+#aboutText{
+  padding: 25px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.about img {
+  width: 80%;
+  border: 20px solid white;
+}
+
+.about figure {
+  margin: 0;
+  align-content: center; 
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.top a {
+  text-decoration: none;
+}
+
+.top a:hover {
+  text-decoration: none;
+}
+/* Contact-Footer */
+
+footer {
+  text-align: center;
+  background-color: #453E4F;
+  color: #ffe8d6;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-size: 1.25em;
+  margin: auto;
+  align-content: center;
+  padding: 15px 0;
+}
+
+footer .content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding-bottom: 30px;
+
+}
+
+.contact h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+  font-size: 2.5em;
+  padding: 60px 0 60px 0;
+}
+
+.contact div {
+  padding: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.social {
+  padding-bottom: 30px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social icons p i {
+  font-size: 1.3125em;
+}
+
+footer i {
+  color: #ffe8d6;
+}
+
+footer p {
+  margin: 0;
+}
+.fab {
+  font-size: 3em;
+  padding: 0;
+}
+
+#follow ul li{
+  display: inline;
+}
+
+#follow ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#follow li {
+  display: flex;
+  justify-content: center;
+}
+
+.meet {
+  padding-bottom: 25px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media (max-width: 768px) {
+  .skill--icons {
+    display: none;
+  }
+  .skill--mobile {
+    display: contents;
+  }
+}
+@media (min-width: 768px) {
+  /* Tablet Styles */
+
+  html {
+    font-size: 18px;
+  }
+  /*--Header--*/
+  header nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 95%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  header .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+  }
+  
+  
+/*--Projects--*/
+  .projects {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  article {
+    width: 25%;
+  }
+
+  /*--Skills--*/
+
+  .dev,
+  .tech {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .skills li {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 5px;
+    /* background: #CAC691
+    ;
+    border: 2px solid #CAC691
+    ; */
+    padding: 10px;
+  }
+
+  .skills h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    padding-bottom: 0px;
+  }
+
+  .skill--mobile {
+    display: none;
+  }
+
+  /*--About--*/
+  .about {
+    margin: auto;
+    padding: 75px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    
+  }
+  
+  .about p {
+    width: 500px;
+  }
+
+  .about h2 {
+    margin: 0;
+  }
+
+  .about img {
+    width: 300px;
+    border: 5px solid white;
+  }
+  
+  .about figure {
+    margin: 0; 
+    width: 33%;
+    padding: 2em;
+  }
+
+  .about h2 {
+    font-size: 1.5em;
+  }
+
+  /*--Footer/Contact--*/
+  footer {
+    text-align: center;
+    background-color: #453E4F;
+    color: #ffe8d6;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-size: 1em;
+    margin: auto;
+  }
+
+  footer .content-wrapper {
+    width: 95%;
+    margin: 0;
+  }
+
+  footer .footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .footer-content h3 {
+    margin: 0;
+  }
+
+  .contact {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 0;
+    width: 25%;
+  }
+  
+  .social {
+    width: 35%;
+  }
+
+  .fab {
+    font-size: 2em;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Desktop Styles */
+
+  .content-wrapper {
+    min-width: 1200px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header .social-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  header .social-icons p {
+    margin: 0 65px;
+  }
+
+  .hero p {
+    margin: 0 150px;
+  }
+
+  .dev {
+    width: 90%;
+    margin: 40px;
+  }
+  
+  .skill--mobile{
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .about p {
+    width: 100%;
+  }
+  
+  .about img {
+    width: 90%;
+    border: 8px solid white;
+  }
+  #aboutText {
+    width: 50%;
+    font-size: 1em;
+  }
+  .about h2 {
+    margin: 0;
+  }
+  
+  #connect {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    padding: 25px;
+  }
+
+  article {
+    width: 40%;
+  }
+
+  .contact {
+    width: 20%;
+  }
+  .social {
+    width: 40%;
+  }
+
+  .meet {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
